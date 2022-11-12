@@ -1,0 +1,117 @@
+body {
+  color: #000000;
+  background-color: #eeaad0;
+  font-family: 'whitehall', serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #67a0f7;
+  border-radius: 0;
+  border: 1px solid #000000;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'whitehall', serif;
+  color: #000000;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #222;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, .navbar-brand a:any-link { /* Hide the underline on links */
+  text-decoration: none;
+}
+/* Set up the look and position of the button */ 
+#nav-button { 
+  border: 2px solid #000000;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  top: 0;
+  right: 0;
+  float: left;
+}
+
+.navbar-header .icon-bar .topbar {
+  border: 1px solid #000000;
+}
+#collapsable-nav {
+  text-align: center;
+  max-width: 100%;
+}
+#nav-list {
+  margin-top: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  align-content: center;
+}
+#nav-list a {
+  font-size: 1.5em;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  width: auto;
+}
+#nav-list a:hover {
+  background: #634ce7;
+}
+#nav-list a span {
+  font-size: 2em;
+  text-align: center;
+  width: auto;
+}
+/* END HEADER */
+/* MAIN CONTENT */
+.container h2 {
+  font-family: 'whitehall', serif;
+  color: #000000;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 1px #222;
+}
+.container h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #000000;
+}
+
+#chicken-item {
+  border: 2px solid #000000;
+  background-color: cornsilk;
+  font-size: 1.2em;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+#beef-item {
+  border: 2px solid #000000;
+  background-color: cornsilk; 
+  font-size: 1.2em;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+#sushi-item {
+  border: 2px solid #000000;
+  background-color: cornsilk; 
+  font-size: 1.2em;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+/* END MAIN CONTENT */
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    font-size: 2em;
+    padding-top: 10px;
+  }
+  /* End Header */
+}
